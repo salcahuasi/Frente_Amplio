@@ -1,0 +1,165 @@
+
+body {
+  background-color: #e6ecf0;
+  font-family: 'Source Sans Pro';
+}
+
+#container-tweets{
+  background-color: #ECECEC;
+  padding: 0.5rem;
+  
+}
+
+.poster{	
+width:80%;	
+}
+
+button.btn-style{
+  background-color: #ee6e73;
+}
+
+.hour-style{
+ border-radius: 0.5rem;
+ font-size: 1rem;
+
+}
+.text-style{
+  font-family: bold;
+  
+}
+
+.name-user {
+  font-weight: 700;
+  font-size: 18px;
+}
+.short-user {
+  color: #657796;
+  font-size: 14px;
+}
+
+.box-name-user{
+  width: 110px;
+  position: relative;
+  left: 110px;
+}
+
+.number{
+  color: #66a1f2;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+}
+
+.text-number{
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  color: #657796;
+}
+
+table {
+  margin: 10px;
+}
+
+.logo{
+  color:#1da1f2;
+  font-size: 20px;
+  position: relative;
+  left: 300px;
+  
+}
+
+.iconos {
+  color: #66757f;
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.iconos:hover {
+  color:#1da1f2;
+  border-bottom: 3px solid #1da1f2;
+  transition: 0.5s;
+}
+
+header div p {
+display: inline-block;
+font-size: 13px;
+font-weight: 700;
+margin-left: 10px;
+}
+
+header div {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin: 15px auto;
+  font-weight: 700;
+}
+
+.photo-user img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: 3px solid white;
+  position: absolute;
+  top: 50px;
+  left: 13px;
+}
+
+
+textarea {
+  
+  border: 2.5px solid #a4d9f9;
+  border-radius: 10px;
+  outline: none;
+  background-color: white;
+  overflow: hidden;
+  resize: none;
+  height: 75px;
+  margin-bottom: 16px;
+  box-sizing: content-box;
+}
+
+button {
+  width: 88px;
+  height: 34px;
+  border: none;
+  background-color: #fd0002;
+  margin: 1px 12px 12px 21px;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.new-tweet {
+  width: 593px;
+  height: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.manta{
+  margin-top: 0.5rem;
+}
+.tweet-style {
+  background-color: white;
+  width: inherit;
+  height: auto;
+  word-wrap: break-word;
+  border-top: 2px solid #e6ecf0;
+  border-bottom: 10px solid #e6ecf0;
+  border-radius:18px;
+  font-family: 'Source Sans Pro';
+  font-size: 10px;
+  margin-left:2rem ;
+}
